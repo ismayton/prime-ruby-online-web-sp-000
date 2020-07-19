@@ -2,10 +2,10 @@ require 'pry'
 
 def prime?(integer)
   if integer < 2 
-    false
+    return false
   elsif integer == 4
-    false
+    return false
   end
-  true
+  return true
 end
 
