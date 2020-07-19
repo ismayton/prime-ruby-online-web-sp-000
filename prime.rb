@@ -1,13 +1,13 @@
 def prime?(integer)
   if integer < 2 
-      return false
+      false
   else
     range = (2..7).to_a 
     range.each do |denominator|
       if integer % denominator == 0 
-        return false 
+        false 
       end
     end
-    return true
+    true
   end
 end
