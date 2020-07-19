@@ -1,7 +1,7 @@
 def prime?(integer)
+  binding.pry
   if integer < 2 
       false
-      binding.pry
   else
     range = (2..7).to_a 
     range.each do |denominator|
