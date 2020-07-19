@@ -1,13 +1,13 @@
 require 'pry'
 
 def prime?(integer)
-  range = (2..7).to_a
   if integer < 2 
     return false
-  else
-    range.each do |denominator|
-      return false if integer % denominator == 0
-    end
+  end
+  
+  range = (2..7).to_a
+  range.each do |denominator|
+    return false if integer % denominator == 0
   end
 end
 
