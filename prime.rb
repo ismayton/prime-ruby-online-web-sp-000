@@ -1,5 +1,6 @@
-# Add  code here!
 def prime?(integer)
+  puts 'Testing'
+  puts integer
   if integer < 2 
     puts '< 2, false'
     false 
