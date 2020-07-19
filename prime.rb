@@ -12,3 +12,5 @@ def prime?(integer)
   end
   true
 end
+
+prime?(-1)
