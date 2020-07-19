@@ -10,7 +10,7 @@ def prime?(integer)
     if integer > denominator
       if integer % denominator == 0 
       return false
-    end
+      end
     end
   end
   true
