@@ -4,7 +4,6 @@ def prime?(integer)
   value = true
   if integer < 2 
       value = false
-      binding.pry
   else
     range = (2..7).to_a 
     range.each do |denominator|
@@ -17,4 +16,3 @@ def prime?(integer)
   value
 end
 
-prime?(-1)
