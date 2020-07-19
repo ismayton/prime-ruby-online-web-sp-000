@@ -1,19 +1,20 @@
 require 'pry'
 
 def prime?(integer)
+  value = true
   if integer < 2 
-      false
+      value = false
       binding.pry
   else
     range = (2..7).to_a 
     range.each do |denominator|
       if integer % denominator == 0 
-        false
+        value = false
         break
       end
     end
   end
-  true
+  value
 end
 
 prime?(-1)
