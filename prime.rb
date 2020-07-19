@@ -1,7 +1,9 @@
 require 'pry'
 
 def prime?(integer)
-  range = (2..7).to_a
-  
+  if integer < 2 
+    false
+  end
+  true
 end
 
