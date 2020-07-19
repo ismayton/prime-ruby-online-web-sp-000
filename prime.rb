@@ -6,6 +6,7 @@ def prime?(integer)
     if integer < 2 
       puts '< 2, false'
       false 
+      break
     elsif integer % denominator == 0 
       puts 'found denominator, false'
       false 
