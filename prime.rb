@@ -5,7 +5,7 @@ def prime?(integer)
     return false
   end
 
-  range = (2..7).to_a
+  range = (2..11).to_a
   range.each do |denominator|
     if integer > denominator
       if integer % denominator == 0 
