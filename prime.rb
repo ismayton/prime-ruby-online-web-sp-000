@@ -8,6 +8,7 @@ def prime?(integer)
     range.each do |denominator|
       if integer > denominator && integer % denominator == 0 
         return false
+        break
       else
         return true
       end
