@@ -8,5 +8,6 @@ def prime?(integer)
         false 
       end
     end
-  true
+    true
+  end
 end
